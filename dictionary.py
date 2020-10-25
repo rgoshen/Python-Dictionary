@@ -7,7 +7,7 @@ def look_up(word):
     word = word.lower()
     if word in data:
         return data[word]
-    elif word.title() in data:
+    elif word.title() in data:      # ensures proper nouns can be found in data.
         return data[word.title()]
     elif len(get_close_matches(word, data.keys())) > 0:
         user_choice = input(f"Did you mean {get_close_matches(word, data.keys())[0]} instead? Enter 'Y' for yes of 'N' for no: ")
