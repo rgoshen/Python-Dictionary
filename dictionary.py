@@ -4,9 +4,11 @@ from difflib import get_close_matches
 data = json.load(open("data.json"))
 
 def look_up(word):
-    lookup_word = word.lower()
-    if lookup_word in data:
-        return data[lookup_word]
+    word = word.lower()
+    if word in data:
+        return data[word]
+    elif word.title() in data:
+        return data[word.title()]
     elif len(get_close_matches(word, data.keys())) > 0:
         user_choice = input(f"Did you mean {get_close_matches(word, data.keys())[0]} instead? Enter 'Y' for yes of 'N' for no: ")
         user_choice = user_choice.upper()
