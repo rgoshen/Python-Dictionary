@@ -3,8 +3,9 @@ import json
 data = json.load(open("data.json"))
 
 def translate(word):
-    if word in data:
-        return data[word]
+    lookup_word = word.lower()
+    if lookup_word in data:
+        return data[lookup_word]
     else:
         return f"{word} cannot be found!"
 
