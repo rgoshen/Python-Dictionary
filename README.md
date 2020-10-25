@@ -8,7 +8,6 @@
 -->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
@@ -158,15 +157,13 @@ Project Link: [https://github.com/rgoshen/Python-Dictionary](https://github.com/
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/rgoshen/repo.svg?style=flat-square
-[contributors-url]: https://github.com/rgoshen/repo/graphs/contributors
+[contributors-url]: https://github.com/rgoshen/Python-Dictionary/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/rgoshen/repo.svg?style=flat-square
-[forks-url]: https://github.com/rgoshen/repo/network/members
-[stars-shield]: https://img.shields.io/github/stars/rgoshen/repo.svg?style=flat-square
-[stars-url]: https://github.com/rgoshen/repo/stargazers
+[forks-url]: https://github.com/rgoshen/Python-Dictionary/network/members
 [issues-shield]: https://img.shields.io/github/issues/rgoshen/repo.svg?style=flat-square
-[issues-url]: https://github.com/rgoshen/repo/issues
+[issues-url]: https://github.com/rgoshen/Python-Dictionary/issues
 [license-shield]: https://img.shields.io/github/license/rgoshen/repo.svg?style=flat-square
-[license-url]: https://github.com/rgoshen/repo/blob/master/LICENSE.txt
+[license-url]: https://github.com/rgoshen/Python-Dictionary/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/rickgoshen
 [product-screenshot]: images/screenshot.png
