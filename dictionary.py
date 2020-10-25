@@ -23,4 +23,10 @@ def look_up(word):
 
 word = input('Enter in word: ')
 
-print(look_up(word))
+output = look_up(word)
+
+if type(output) == list:
+    for item in output:
+        print(item)
+else:
+    print(output)
