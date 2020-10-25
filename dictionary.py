@@ -2,7 +2,7 @@ import json
 
 data = json.load(open("data.json"))
 
-def translate(word):
+def look_up(word):
     lookup_word = word.lower()
     if lookup_word in data:
         return data[lookup_word]
@@ -11,4 +11,4 @@ def translate(word):
 
 word = input('Enter in word: ')
 
-print(translate(word))
+print(look_up(word))
