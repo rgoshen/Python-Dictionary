@@ -43,11 +43,11 @@
   <p align="center">
     This is a CLI program written in Python.  It asks the user for a word and returns a definition of that word.  It can accept a word, proper noun, or acronym.
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://github.com/rgoshen/Python-Dictionary">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/rgoshen/Python-Dictionary/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/rgoshen/Python-Dictionary/issues">Request Feature</a>
   </p>
 </p>
 
