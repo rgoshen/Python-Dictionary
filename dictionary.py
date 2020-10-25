@@ -9,6 +9,8 @@ def look_up(word):
         return data[word]
     elif word.title() in data:      # ensures proper nouns can be found in data.
         return data[word.title()]
+    elif word.upper() in data:      # ensures acronyms can be found in data.
+        return data[word.upper()]
     elif len(get_close_matches(word, data.keys())) > 0:
         user_choice = input(f"Did you mean {get_close_matches(word, data.keys())[0]} instead? Enter 'Y' for yes of 'N' for no: ")
         user_choice = user_choice.upper()
