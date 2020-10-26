@@ -43,6 +43,7 @@
 - [About The Project](#about-the-project)
   - [Built With](#built-with)
 - [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Roadmap](#roadmap)
 - [Contributing](#contributing)
@@ -69,13 +70,28 @@
 
 To get a local copy up and running follow these simple steps.
 
+### Prerequisites
+-[Requirements](requirements.txt)
+
 ### Installation
 
 1. Clone the repo
 ```sh
-git clone https://github.com/rgoshen/Python-Dictionary.git
+$git clone https://github.com/rgoshen/Python-Dictionary.git
 ```
-
+2. Recreate the virtual environment
+```sh
+$cd project_irectory
+$python3 -m venv venv
+```
+3. Activate the environment
+```sh
+$source venv/bin/activate
+```
+4. Install requirements
+```sh
+$ pip3 install -r requirements.txt
+```
 
 <!-- ROADMAP -->
 ## Roadmap
